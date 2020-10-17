@@ -30,7 +30,7 @@ Rails.application.routes.draw do
   
   get("/zodiacs/cancer", { :controller => "waterrrr", :action => "crab" })
   get("/zodiacs/scorpio", { :controller => "waterrrr", :action => "scorpion" })
-  # get("/zodiacs/pisces", { :controller => "waterrrr", :action => "fish " })
+  get("/zodiacs/pisces", { :controller => "waterrrr", :action => "fish" })
 
   # PART 3: MORE R→C→A→V PRACTICE
   # ==========================
